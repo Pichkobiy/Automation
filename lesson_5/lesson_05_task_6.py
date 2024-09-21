@@ -12,7 +12,7 @@ username_field.send_keys("tomsmith")
 password_field = driver.find_element(By.ID, "password")
 password_field.send_keys("SuperSecretPassword!")
 
-login_button = driver.find_element(By.CSS.SELECTOR, "botton[type='submit']")
+login_button = driver.find_element(By.CSS_SELECTOR, "button[type='submit']")
 login_button.click()
 driver.implicitly_wait(10)
 
